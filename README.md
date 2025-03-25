@@ -29,7 +29,7 @@ P → Pacman (Start Position)
 
 . → Food (Goal)
 
-"#" → Wall (Obstacle)
+\# → Wall (Obstacle)
 
 (space) → Empty Path
 
