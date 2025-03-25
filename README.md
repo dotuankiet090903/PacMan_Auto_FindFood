@@ -58,9 +58,10 @@ print(solution)
 ### Changing maps
 You can change different map by modifying the path to map in searchAgent.py file:
 
-For example changing the "\maze\pacman_multi02.txt" with the desire map's path.
+For example changing the "\maze\pacman_multi02.txt" with the desire map's path in this piece of code.
 
 thu = MFSP("\maze\pacman_multi02.txt")
+
 path = bfs(thu)
 
 
