@@ -4,12 +4,8 @@ This project implements search algorithms for solving Pacman maze problems, wher
 
 Search algorithms used in this project:
 
-Depth-First Search (DFS)
-
-Breadth-First Search (BFS)
-
-Uniform Cost Search (UCS)
-
-A Search (A*)*
-
-Greedy Best-First Search (GBFS)
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
+- Uniform Cost Search (UCS)
+- A Search (A*)*
+- Greedy Best-First Search (GBFS)
