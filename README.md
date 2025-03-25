@@ -44,6 +44,7 @@ P → Pacman (Start Position)
 You can run different search algorithms by modifying searchAgent.py:
 #### Import the problem
 from problems import SingleFoodSearchProblem
+
 from searchAgent import dfs, bfs, ucs, a_star, gbfs
 
 #### Load the maze
@@ -51,10 +52,12 @@ problem = SingleFoodSearchProblem("maze.txt")
 
 #### Run a search algorithm
 solution = a_star(problem, problem.get_hue_man())  # A* with Manhattan heuristic
+
 print(solution)
 
 ### Changing maps
 You can change different map by modifying the path to map in searchAgent.py file:
+
 For example changing the "\maze\pacman_multi02.txt" with the desire map's path.
 
 thu = MFSP("\maze\pacman_multi02.txt")
